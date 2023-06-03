@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "HsccAtlanta\\Blogpress\\": "src/"
+            "Blogpress\\": "src/"
         }
     }
 }

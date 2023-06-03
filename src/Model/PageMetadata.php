@@ -1,20 +1,5 @@
 <?php
 
-// PageMetadataobject
-// name
-// The alphanumeric (- and _ are allowed) name of this page.
-
-// string
-// "some-page"
-// createdAt
-// When this page was created in milliseconds since the unix epoch. Generated automatically by the server.
-
-// number
-// 1579345900650
-// totalViews
-// The current number of views this page has.
-// number
-
 namespace Blogpress\Model;
 
 class PageMetadata 
