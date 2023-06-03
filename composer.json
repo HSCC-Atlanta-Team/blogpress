@@ -1,0 +1,16 @@
+{
+    "name": "hscc-atlanta/blogpress",
+    "type": "project",
+    "require": {
+        "bcosca/fatfree-core": "^3.8",
+        "guzzlehttp/guzzle": "^7.7",
+        "symfony/var-dumper": "^6.3",
+        "spatie/guzzle-rate-limiter-middleware": "^2.0",
+        "erusev/parsedown": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "HsccAtlanta\\Blogpress\\": "src/"
+        }
+    }
+}
