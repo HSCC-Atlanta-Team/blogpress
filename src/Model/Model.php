@@ -48,5 +48,10 @@ class BaseModel
     
             return $this->$method();
         }
+
+        public static function miliToTS($milliseconds)
+        {
+            return (int)$milliseconds/1000;
+        }
     }
 
